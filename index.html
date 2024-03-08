@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and viewport settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <!-- Heading for the Age Calculator -->
+        <h1>JavaScript <br /><span>Age Calculator</span></h1>
+        <h3>Your Date of Birth</h3>
+        <!-- Input box for selecting date, month, and year -->
+        <div class="input-box">
+          <!-- Dropdown for selecting date -->
+          <select name="" id="date-options">
+            <option value="" selected disabled>Date</option>
+          </select>
+
+          <!-- Dropdown for selecting month -->
+          <select name="" id="month-options">
+            <option value="" selected disabled>Month</option>
+          </select>
+
+          <!-- Dropdown for selecting year -->
+          <select name="" id="year-options">
+            <option value="" selected disabled>Year</option>
+          </select>
+
+          <!-- Button to trigger age calculation -->
+          <button id="btn">Calculate Age</button>
+        </div>
+
+        <!-- Output box for displaying the calculated age -->
+        <div class="output-box">
+          <p id="output">Your age is 22 years 11 months 24 days.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript code for age calculation -->
+    <script src="script.js"></script>
+  </body>
+</html>
